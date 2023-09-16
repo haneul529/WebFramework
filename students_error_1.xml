@@ -1,0 +1,11 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<!-- XML 문서 구조 : 선언부 공백 오류-->
+<!-- ?와 xml 사이에 공백이 있는 오류-->
+
+<students>
+  <student sid="100">
+    <name> 배 하 늘 </name>
+    <age> 23 </age>
+    <address> 서울 양천구 목동 </address>
+  </student>
+</students>
