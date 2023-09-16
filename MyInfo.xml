@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 나의 정보 -->
+
+<myinfo>
+	<name> 배 하 늘 </name>
+	<age> 23 </age>
+	<phone> 010-5019-0234 </phone>
+	<address> 서울 양천구 목동 </address>
+</myinfo>
