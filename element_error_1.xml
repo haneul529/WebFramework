@@ -1,0 +1,16 @@
+<xml version="1.0" encoding="utf-8"?>
+
+<!-- XML 문서의 본체에는 반드시 한 개의 최상위 요소가 있어야만 함 -->
+  
+<student>
+  <sid> 100 </sid>
+  <name> 배 하 늘 </name>
+  <age> 23 </age>
+  <address> 서울시 양천구 목동 </address>
+</student>
+<student>
+  <sid> 200 </sid>
+  <name> 배 한 별 </name>
+  <age> 21 </age>
+  <address> 서울시 양천구 목동 </address>
+</student>
