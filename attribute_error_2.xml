@@ -1,0 +1,12 @@
+<xml version="1.0" encoding="utf-8"?>
+
+<!-- 여러 개의 속성을 표현할 때는 쉼표를 사용하지 않는다. -->
+  
+<students>
+  <student
+    sid= "100",
+    name= "배하늘",
+    age= "23",
+    address= "서울시 양천구 목동" >
+  </student>
+</students>
