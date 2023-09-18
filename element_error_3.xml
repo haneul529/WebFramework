@@ -1,0 +1,12 @@
+<xml version="1.0" encoding="utf-8"?>
+
+<!-- 다른 요소의 시작 태그나 종료 태그를 겹쳐쓰지 말아야하며, 이름 부여 규칙에 적합해야 한다. -->
+  
+<students>
+  <stu dent>
+    <sid> 100 </sid>
+    <name> 배 하 늘 </name>
+    <age> 23 <address></age>
+     서울시 양천구 목동 </address>
+  </student>
+</students>
