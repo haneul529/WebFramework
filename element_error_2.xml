@@ -1,0 +1,10 @@
+<xml version="1.0" encoding="utf-8"?>
+
+<students>
+  <student>
+    <sid> 100 </sid>
+    <name> 배 하 늘 </name>
+    <age> 23 </age>
+    <address> 서울시 양천구 목동 </address>
+  <!-- 요소를 나타내는 시작 태그와 종료 태그는 반드시 한 쌍으로 존재해야 한다. -->
+</students>
