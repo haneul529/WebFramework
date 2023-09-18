@@ -1,0 +1,11 @@
+<?xml encoding="utf-8"?>
+
+<!-- XML 문서 구조 : 버전 속성 생략 오류 -->
+
+<students>
+  <student sid="100">
+    <name> 배 하 늘 </name>
+    <age> 23 </age>
+    <address> 서울시 양천구 목동 </address>
+  </student>
+</students>
