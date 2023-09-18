@@ -1,0 +1,12 @@
+<xml version="1.0" encoding="utf-8"?>
+
+<!-- 큰 따옴표와 작은 따옴표를 겹쳐서 사용할 수 없다. -->
+  
+<students>
+  <stu dent
+    sid= "100"
+    name= "배하늘"
+    age= "23"
+    address= "서울시 '양천구" 목동' >
+  </student>
+</students>
