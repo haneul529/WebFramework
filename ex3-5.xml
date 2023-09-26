@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE BookCatalog[
+   <!ELEMENT BookCatalog (Book*)>
+  <!ELEMENT Book ((BookCode|Title), description*, CoAuthor, year, publisher)>
+  <!ELEMENT Title (#PCDATA)>
+  <!ELEMENT BookCode (#PCDATA)>
+  <!ELEMENT description ANY>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT publisher (#PCDATA)>
+  <!ELEMENT CoAuthor (#PCDATA | Author)*>
+   <!ELEMENT Author (#PCDATA)>
+   <!ATTLIST Book lang CDATA "언어">
+]>
+
+<BookCatalog>
+  <Book lang="eng">
+    <BookCode>BC100-1024</BookCode>
+    <description>체계적으로 배우는 XML원리와 응용</description>
+    <CoAuthor>
+      primary Author : <Author> steve</Author>
+      secondary Author : <Author> mackey</Author>
+    </CoAuthor>
+    <year>2015</year>
+    <publisher>한빛아카데미</publisher>
+  </Book>
+  <Book lang="kr">
+    <Title>소프트웨어공학</Title>
+    <description>10판</description>
+    <CoAuthor>
+      <Author>권기태</Author>
+      <Author>노정규</Author>
+    </CoAuthor>
+    <year>2016</year>
+    <publisher>한티미디어</publisher>
+  </Book>
+  <Book lang ="ru">
+    <Title>인공지능개론</Title>
+    <CoAuthor>
+      <Author>마이클 네그네빗스키</Author>
+      <Author>김용혁</Author>
+    </CoAuthor>
+    <year>2015</year>
+    <publisher>한빛아카데미</publisher>
+  </Book>
+</BookCatalog>
