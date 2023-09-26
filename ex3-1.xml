@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Products[
+<!ELEMENT Products (Product*)>
+<!ELEMENT Product (Maker, Name, Price, Discount, Code)>
+<!ELEMENT Maker (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Discount (#PCDATA)>
+<!ELEMENT Code (#PCDATA)>
+]>
+<Products>
+  <Product>
+    <Maker>(주)하늘 화장품</Maker>
+    <Name>하늘 피부 보정</Name>
+    <Price>10,000</Price>
+    <Discount>0.35</Discount>
+    <Code>SC-01-01</Code>
+  </Product>
+</Products>
